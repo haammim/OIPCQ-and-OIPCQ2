@@ -111,10 +111,10 @@ end
 % This section should be use for AML dataset
 % *************************************************************************
 
-% for i=1:size(targets,1)-1
-%     for j=i+1:size(targets,1)
-%         G(targets(i,1),targets(j,1))=0;
-%         G(targets(j,1),targets(i,1))=0;
+% for i=1:size(Target_Genes,1)-1
+%     for j=i+1:size(Target_Genes,1)
+%         G(Target_Genes(i,1),Target_Genes(j,1))=0;
+%         G(Target_Genes(j,1),Target_Genes(i,1))=0;
 %     end
 % end
 
