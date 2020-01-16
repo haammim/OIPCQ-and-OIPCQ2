@@ -1,9 +1,7 @@
 data22=load('Dream3_10.txt');
 data=data22';
-% data=gene_expression_log;
 n_gene=size(data,1);
 TrueNet=load('TrueNetwork3_10.txt');
-% TrueNet=golden_network_matrix_diag;
 TrueNetUper=triu(TrueNet,1);
 UndirectCompareFinal=["theta0", 'theta1', 'psi1', 'theta2', 'psi2', 'TP', 'FP', 'TN', 'FN', 'PPV', 'TPR', 'ACC', 'F', 'TNR', 'FNR', 'FPR', 'NPV', 'FDR', 'MCC'];
 theta0=0.1;
