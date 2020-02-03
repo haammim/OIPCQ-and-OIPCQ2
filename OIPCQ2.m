@@ -1,5 +1,6 @@
 data22=load('Dream3_10.txt');
 data=data22';
+%%data=load('AML.txt');
 n_gene=size(data,1);
 TrueNet=load('TrueNetwork3_10.txt');
 TrueNetUper=triu(TrueNet,1);
