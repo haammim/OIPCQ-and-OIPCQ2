@@ -14,21 +14,21 @@ We consider the RACER network as a Golden Standard Network for the AML dataset.
 We set the seventy percentile for all methods and datasets (psi1=psi2=70).
 The following are listed separately for each method and dataset:
 
-OIPCQ:
+OIPCQ2 based on cmi2:
 DREAM3:
-for 10 Genes: theta0=0.1 & theta1=0.01 & theta2=0.01
-for 50 Genes: theta0=0.016 & theta1=0.05 & theta2=0.05
-for 100 Genes: theta0=0.033 & theta1=0.05 & theta2=0.05
+for 10 Genes: theta0=0.1 & theta=0.01
+for 50 Genes: theta0=0.016 & theta=0.075
+for 100 Genes: theta0=0.031 & theta=0.064
 DREAM4:
-for NET 1: theta0=0.06 & theta1=0.015 & theta2=0.015
-for NET 2: theta0=0.02 & theta1=0.03 & theta2=0.03
-for NET 3: theta0=0.052 & theta1=0.04 & theta2=0.04
-for NET 4: theta0=0.02 & theta1=0.05 & theta2=0.05
-for NET 5: theta0=0.08 & theta1=0.06 & theta2=0.06
+for NET 1: theta0=0.059 & theta=0.025
+for NET 2: theta0=0.01 & theta=0.033
+for NET 3: theta0=0.046 & theta=0.05
+for NET 4: theta0=0.02 & theta=0.06
+for NET 5: theta0=0.064 & theta=0.087
 SOS_DNA:
-theta0=0.008 & theta1=0.01 & theta2=0.01
+theta0=0.008 & theta=0.01
 AML:
-theta0=0.008 & theta1=0.008 & theta2=0.008
+theta0=0.008 & theta=0.008
 
 
 
