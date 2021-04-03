@@ -11,7 +11,7 @@ For AML data in both algorithms, you need to remove these two lines and use the 
 
 To obtain the outputs mentioned in the article, we need to use a specific treshold for each method and dataset.
 We consider the RACER network as a Golden Standard Network for the AML dataset.
-We set the seventy percentile for all methods and datasets (psi1=psi2=70).
+We set the seventy percentile for all methods and datasets (psi=70).
 The following are listed separately for each method and dataset:
 
 OIPCQ based on cmi:
