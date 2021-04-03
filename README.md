@@ -6,10 +6,10 @@ OIPCQ requires the functions of cmi and Compare, and OIPCQ2 requires the functio
 
 In the DREAM3 and DREAM4 data, the columns represent the genes and the rows represent the different samples. Since we compute the dependency criterion of Mutual Information on rows we first calculate the transposed of this data.
 For SOS-DATA and AML data there is no need to transpose because the rows represent the genes and the transcription factors and the columns represent the different samples.
-In OIPC and OIPC, data22 takes the data of DREAM3 and DREAM4 then calculates the transpose in the next line.
-For AML data in both algorithms, you need to remove these two lines and use the next line without the comment.
+In OIPC and OIPC2, data22 takes the data of DREAM3 and DREAM4 then calculates the transpose in the next line.
+For SOS-DATA and AML data in both algorithms, you need to remove line 2 and add this code: "data=data22;".
 
-To obtain the outputs mentioned in the article, we need to use a specific treshold for each method and dataset.
+To obtain the outputs mentioned in the article, we need to use a specific threshold for each method and dataset.
 We consider the RACER network as a Golden Standard Network for the AML dataset.
 We set the seventy percentile for all methods and datasets (psi=70).
 The following are listed separately for each method and dataset:
